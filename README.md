@@ -1,10 +1,16 @@
-# Ansible-roles
+# Postfix
 
-A repository for Ansible roles used by Evolix.
+Install Postfix
 
-It contains only roles, everything else is available at
-https://forge.evolix.org/projects/ansible-public
+## Tasks
 
-The **stable** branch contains roles that we consider ready for production.
+Minimal configuration is in `tasks/main.yml`.
 
-The **unstable** branch contains not sufficiently tested roles (or evolutions on existing roles) that we don't consider ready for production yet.
+## Available variables
+
+Main variables are :
+
+* `postfix_hostname` : hostname for Postfix ;
+* `postfix_slow_transport` : enable customization for delivrability.
+
+The full list of variables (with default values) can be found in `defaults/main.yml`.

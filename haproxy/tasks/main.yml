@@ -1,6 +1,0 @@
----
-# tasks file for haproxy
-- name: Install packages
-  apt:
-    name: haproxy
-    state: installed

@@ -1,6 +1,0 @@
----
-dependencies:
-  - { role: elasticsearch }
-  - { role: elasticsearch-plugin-head }
-  - { role: logstash }
-  - { role: kibana }

@@ -1,3 +1,0 @@
----
-logstash_jvm_xms: 256m
-logstash_jvm_xmx: 1g

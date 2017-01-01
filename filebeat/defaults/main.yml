@@ -1,3 +1,0 @@
----
-filebeat_kibana_dashboards: False
-filebeat_logstash_plugin: False

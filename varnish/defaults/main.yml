@@ -1,3 +1,0 @@
----
-thread_pools: "{{ ansible_processor_cores * ansible_processor_count }}"
-malloc: "2G"
